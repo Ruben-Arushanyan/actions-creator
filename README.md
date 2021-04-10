@@ -86,7 +86,7 @@ console.log(callbackable_action)
 //          _index: 1
 //      }
 
-console.log(callbackable_action.cb())
+callbackable_action.cb()
 //      "Hello, I am callback!!!"
 
 ```
