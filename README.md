@@ -54,10 +54,10 @@ console.log(type2)
 ```
 
 As we see in the example above, every action object have following fields:
-- ### **`type`** \<String> action type as a string
-- ### **`args`** \<Array> any array that contains all the data needed for the action
-- ### **`cb`** \<Function> callback function by default is *identity function (x => x)*, but we can pass any function if we need to have a callback,  The next example below shows how to pass that.
-- ### **`_index`** \<Integer> positive integer number (1, 2, 3, ...)․ It creates automatically and shows action order by index. can be used as a unique identifier or help understand which action created earlier(in rare cases, it may be necessary)
+- **`type`** \<String> action type as a string
+- **`args`** \<Array> any array that contains all the data needed for the action
+- **`cb`** \<Function> callback function by default is *identity function (x => x)*, but we can pass any function if we need to have a callback,  The next example below shows how to pass that.
+- **`_index`** \<Integer> positive integer number (1, 2, 3, ...)․ It creates automatically and shows action order by index. can be used as a unique identifier or help understand which action created earlier(in rare cases, it may be necessary)
 
 
 <hr/>
