@@ -1,6 +1,6 @@
 {
   "name": "actions-creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Actions Creator\" is an awesome tiny javascript package that allows you to dynamically and easily create \"callbackable-actions\" standardized objects.",
   "license": "MIT",
   "homepage": "https://github.com/ruben-arushanyan/actions-creator",
