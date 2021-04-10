@@ -1,0 +1,36 @@
+{
+  "name": "actions-creator",
+  "version": "1.0.0",
+  "description": "\"Actions Creator\" is an awesome tiny javascript package that allows you to dynamically and easily create \"callbackable-actions\" standardized objects.",
+  "license": "MIT",
+  "homepage": "https://github.com/ruben-arushanyan/actions-creator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruben-arushanyan/actions-creator"
+  },
+  "bugs": "https://github.com/ruben-arushanyan/actions-creator/issues",
+  "keywords": [
+    "actions-creator",
+    "callbackable-actions",
+    "javascript",
+    "actions",
+    "redux-actions",
+    "redux",
+    "produce-by-path"
+  ],
+  "author": "Ruben Arushanyan <ruben.arushanyan24@gmail.com> (https://github.com/ruben-arushanyan)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://registry-url"
+  },
+  "npmName": "actions-creator",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "produce-by-path": "^1.0.2"
+  }
+}
