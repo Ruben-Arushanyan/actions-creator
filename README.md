@@ -53,20 +53,20 @@ console.log(type2)
 
 ```
 
-As we see in the example above, every action object have following fields:
+As we see in the example above, every action object has following fields:
 - **`type`** \<String> action type as a string
 - **`args`** \<Array> any array that contains all the data needed for the action
-- **`cb`** \<Function> callback function by default is *identity function (x => x)*, but we can pass any function if we need to have a callback,  The next example below shows how to pass that.
-- **`_index`** \<Integer> positive integer number (1, 2, 3, ...)․ It creates automatically and shows action order by index. can be used as a unique identifier or help understand which action created earlier(in rare cases, it may be necessary)
+- **`cb`** \<Function> callback function by default is *identity function (x => x)*, but we can pass any function if we need to have a callback. The next example below shows how to pass that.
+- **`_index`** \<Integer> positive integer number (1, 2, 3, ...)․ It is created automatically and shows action order by index. It can be used as a unique identifier or help understand which action was created earlier(in rare cases, it may be necessary)
 
 
 <hr/>
 
 ## Actions With Callback
 
-Sometimes we need, which action has a **callback capability**, In lots of cases it can be very necessary․ \
+Sometimes we need the action to have **callback capability**. It might be necessary in many cases. \
 **`Actions Creator`** allows us to do this in a beautiful way: \
-when we try to generate an action object, we can pass the **callback function** as the last argument, `Actions Creator` will check if the last argument is a function, it will be considered as a **callback function**.
+When we try to generate an action object, we can pass the **callback function** as the last argument. `Actions Creator` will check and if the last argument is a function, it will be considered as a **callback function**.
 
 ```javascript
 import actionsCreator from "actions-creator"
@@ -93,7 +93,7 @@ callbackable_action.cb()
 <hr/>
 
 ## Customize
-We do not recommend customize,
+We do not recommend to customize,
 but if you need to do it, you can easily do that: \
 see: [Produce By Path Pattern](https://github.com/ruben-arushanyan/produce-by-path)
 <hr/>
