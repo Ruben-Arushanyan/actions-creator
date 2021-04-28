@@ -21,4 +21,4 @@ declare const actionsCreator: {
    [key: string]: ActionPath
 }
 
-exports = actionsCreator
+export = actionsCreator
