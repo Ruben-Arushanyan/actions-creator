@@ -1,4 +1,5 @@
 interface ActionPath {
+   EXAMPLE_TYPE: ActionPath
    apply: ActionPath
    arguments: ActionPath
    bind: ActionPath
@@ -9,16 +10,14 @@ interface ActionPath {
    prototype: ActionPath
    toString: ActionPath
    [key: string]: ActionPath
-   <T extends any[], C extends any>(...args: [...T, C]): {
+   (...args: any[]): {
       type: string
-      args: C extends (...args: any[]) => any ? T : [...T, C]
-      cb: C extends (...args: any[]) => any ? C : <M = any>(arg?: M) => M
+      args: any[]
+      cb: (...args: any[]) => any
       _index: number
    }
 }
 
-declare const actionsCreator: {
-   [key: string]: ActionPath
-}
+declare const actionsCreator: ActionPath
 
 export = actionsCreator
