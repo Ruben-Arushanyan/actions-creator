@@ -6,7 +6,7 @@
 * 
 */
 
-const IncrementGenerator = require('../src/incrementGenerator.js')
+const IncrementGenerator = require('../.packed/incrementGenerator.js')
 
 /* producer instances */
 const increment_1 = new IncrementGenerator(0)

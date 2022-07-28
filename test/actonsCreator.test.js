@@ -6,10 +6,10 @@
 * 
 */
 
-const actionsCreator = require('../src')
+const actionsCreator = require('../.packed')
 const {
     identity,
-} = require('../src/utils.js')
+} = require('../.packed/utils.js')
 
 /* start testing */
 test('Actions Creator Basic Test', () => {

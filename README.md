@@ -5,14 +5,11 @@
 It was originally used to create [redux](https://github.com/reduxjs/redux) actions, but it can be used anywhere when it is needed.
 
 
-<hr>
-
 ## Installation
 
 ```bash
 npm install actions-creator
 ```
-<hr/>
 
 ## Usage
 ```javascript
@@ -60,7 +57,6 @@ As we see in the example above, every action object has following fields:
 - **`_index`** \<Integer> positive integer number (1, 2, 3, ...)․ It is created automatically and shows action order by index. It can be used as a unique identifier or help understand which action was created earlier(in rare cases, it may be necessary)
 
 
-<hr/>
 
 ## Actions With Callback
 
@@ -90,7 +86,6 @@ callbackable_action.cb()
 //      "Hello, I am callback!!!"
 
 ```
-<hr/>
 
 ## Customize
 We do not recommend to customize,
@@ -98,11 +93,10 @@ but if you need to do it, you can easily do that: \
 see: [Produce By Path Pattern](https://github.com/ruben-arushanyan/produce-by-path)
 <hr/>
 
-## Maintainers
+## Authors
 
 - [Ruben Arushanyan](https://github.com/ruben-arushanyan)
 
-<hr/>
-
 ## License
-[MIT](https://github.com/ruben-arushanyan/actions-creator/blob/master/LICENSE)
+
+[MIT License](https://github.com/ruben-arushanyan/actions-creator/blob/master/LICENSE)
