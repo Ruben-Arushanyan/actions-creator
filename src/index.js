@@ -1,3 +1,1 @@
-import actionsCreator from './actionsCreator'
-
-export default actionsCreator
+export {actionsCreator} from './actionsCreator'

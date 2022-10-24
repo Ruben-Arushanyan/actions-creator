@@ -20,7 +20,7 @@ npm install actions-creator
 
 
 ```javascript
-import actionsCreator from 'actions-creator'
+import {actionsCreator} from 'actions-creator'
 
 const action_1 = actionsCreator.MY.FIRST.ACTION('arg1')
 //      {
@@ -50,7 +50,7 @@ Sometimes we need the action to have **callback capability**. It might be necess
 When we try to generate an action object, we can pass the **callback function** as the last argument. `Actions Creator` will check and if the last argument is a function, it will be considered as a **callback function**.
 
 ```javascript
-import actionsCreator from 'actions-creator'
+import {actionsCreator} from 'actions-creator'
 
 const callback = () => {
     console.log('Hello, I am callback!!!')

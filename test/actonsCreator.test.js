@@ -1,4 +1,4 @@
-import actionsCreator from '../.packed'
+import {actionsCreator} from '../.packed'
 
 test('Actions Creator Basic Test', () => {
     expect(actionsCreator.MY.FIRST.ACTION("arg1"))

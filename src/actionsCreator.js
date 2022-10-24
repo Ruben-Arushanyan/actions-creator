@@ -24,4 +24,4 @@ const actionsCreator = new ProduceByPath({
     toPrimitive: (path) => path.join('/')
 })
 
-export default actionsCreator
+export {actionsCreator}
