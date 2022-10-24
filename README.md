@@ -1,8 +1,8 @@
-# Actions Creator
+# Actions Creator - Redux
 
 ## Description
-**`Actions Creator`** is an awesome tiny javascript package that allows you to dynamically and easily create [callbackable-actions](https://github.com/ruben-arushanyan/actions-creator/wiki/callbackable-actions) standardized objects. \
-It was originally used to create [redux](https://github.com/reduxjs/redux) actions, but it can be used anywhere when it is needed.
+
+**actions-creator** is an awesome javascript package that allows you to **dynamically** create action objects in Redux **without** having to declare *CONSTANTS* and separate *action-creator* functions for each action.
 
 
 ## Installation
