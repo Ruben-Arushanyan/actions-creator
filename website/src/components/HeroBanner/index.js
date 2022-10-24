@@ -28,7 +28,7 @@ export default function HeroBanner() {
             Create <b>Actions</b> in <b>Redux</b> more <b>Conveniently</b> than ever
         </h2>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/introduction">
+          <Link className="button button--primary" to="/docs/actions-creator">
             Get Started
           </Link>
           <span className={styles.indexCtasGitHubButtonWrapper}>
