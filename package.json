@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "actions-creator is an awesome javascript package that allows you to dynamically create action objects in Redux without having to declare constants and separate action-creator functions for each action.",
   "license": "MIT",
-  "homepage": "https://github.com/ruben-arushanyan/actions-creator",
+  "homepage": "https://ruben-arushanyan.github.io/actions-creator",
   "main": "index.js",
   "repository": {
     "type": "git",

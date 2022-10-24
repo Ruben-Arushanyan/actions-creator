@@ -1,0 +1,25 @@
+name: Website Test
+
+on:
+  pull_request:
+    branches: [ master ]
+    paths: ['website/**']
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+  workflow_dispatch:
+
+jobs:
+  test-deploy:
+    name: Website Test
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        working-directory: website
+        run: npm ci
+      - name: Test build website
+        working-directory: website
+        run: npm run build
