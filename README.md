@@ -1,14 +1,14 @@
-# [Actions Creator - Redux](https://ruben-arushanyan.github.io/actions-creator)
+# [Actions Creator - Redux](https://actions-creator.js.org)
 
-> You can find the full documentation on the [website](https://ruben-arushanyan.github.io/actions-creator)
+> You can find the full documentation on the [website](https://actions-creator.js.org)
 
 ## Description
 
 **actions-creator** is an awesome javascript package that allows you to **dynamically** create action objects in Redux **without** having to declare *CONSTANTS* and separate *action-creator* functions for each action.
 
-## [Documentation](https://ruben-arushanyan.github.io/actions-creator)
-- [Actions Creator](https://ruben-arushanyan.github.io/actions-creator/docs/actions-creator)
-- [Customization](https://ruben-arushanyan.github.io/actions-creator/docs/customization)
+## [Documentation](https://actions-creator.js.org)
+- [Actions Creator](https://actions-creator.js.org/docs/actions-creator)
+- [Customization](https://actions-creator.js.org/docs/customization)
 
 ## Installation
 

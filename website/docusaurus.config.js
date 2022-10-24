@@ -17,8 +17,8 @@ const additonalInfo = {
 const config = {
   title: 'Actions Creator',
   tagline: 'Create Actions in Redux more Conveniently than ever',
-  url: 'https://ruben-arushanyan.github.io',
-  baseUrl: '/actions-creator/',
+  url: 'https://actions-creator.js.org',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.ico',
