@@ -6,11 +6,5 @@
 * 
 */
 
-const identity = (x) => x
-const isFunction = (x) => typeof x === 'function'
-
-module.exports = {
-    isFunction,
-    identity,
-}
+export const isFunction = (x) => typeof x === 'function'
 

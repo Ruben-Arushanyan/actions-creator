@@ -6,24 +6,22 @@
  * 
  */
 
-const ProduceByPath = require('produce-by-path')
-const IncrementGenerator = require('./incrementGenerator.js')
-const {
-    identity,
-    isFunction,
-} = require('./utils')
-
-
-const incrementer = new IncrementGenerator(0)
+import ProduceByPath from 'produce-by-path'
+import {isFunction} from './utils'
 
 const actionsCreator = new ProduceByPath({
-    call: (path, args) => ({
-        type: path.join('/'),
-        args,
-        cb: isFunction(args[args.length - 1]) ? args.pop() : identity,
-        _index: incrementer()
-    }),
+    call: (path, args) => {
+        const cb = isFunction(args[args.length - 1]) ? args.pop() : null
+        const action = {
+            type: path.join('/'),
+            payload: args[0],
+        }
+        if (cb) {
+            action.cb = cb
+        }
+        return action
+    },
     toPrimitive: (path) => path.join('/')
 })
 
-module.exports = actionsCreator
+export default actionsCreator
