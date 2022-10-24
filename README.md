@@ -59,7 +59,7 @@ const callback = () => {
 const action = actionsCreator.MY.CALLBACKABLE.ACTION(123, callback)
 //      {
 //          type: 'MY/CALLBACKABLE/ACTION',
-//          payload: 1,
+//          payload: 123,
 //          cb: [Function callback],
 //      }
 
