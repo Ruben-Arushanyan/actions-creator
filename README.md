@@ -56,7 +56,7 @@ const callback = () => {
     console.log('Hello, I am callback!!!')
 }
 
-const action = actionsCreator.MY.CALLBACKABLE.ACTION(123, my_callback)
+const action = actionsCreator.MY.CALLBACKABLE.ACTION(123, callback)
 //      {
 //          type: 'MY/CALLBACKABLE/ACTION',
 //          payload: 1,
