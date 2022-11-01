@@ -78,17 +78,17 @@ action.cb() // 'Hello, I am callback!!!'
 
 - **type** `<String>` Action type as a string.  
     ```js
-        actionsCreator.ANY.ACTION().type === 'ANY/ACTION' // true
+    actionsCreator.ANY.ACTION().type === 'ANY/ACTION' // true
     ```
 - **payload** `<Any>`  
     The value of the payload - given in the first argument.
     ```js
-            actionsCreator.ANY.ACTION(123).payload === 123 // true
+    actionsCreator.ANY.ACTION(123).payload === 123 // true
     ```
 - **cb** `<Function>`  
     The function of the callback - given in the last argument.
     ```js
-            const callback = () => {};
+    const callback = () => {};
 
-            actionsCreator.ANY.ACTION(123, callback).cb === callback // true
+    actionsCreator.ANY.ACTION(123, callback).cb === callback // true
     ```
