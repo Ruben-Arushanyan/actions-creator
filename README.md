@@ -4,7 +4,7 @@
 
 ## Description
 
-**actions-creator** is an awesome javascript package that allows you to **dynamically** create action objects in Redux **without** having to declare *CONSTANTS* and separate *action-creator* functions for each action.
+**actions-creator** is an awesome javascript package that allows you to **dynamically** create action objects in Redux **without** declaring *CONSTANTS* and separate *action-creator* functions for each action.
 
 ## [Documentation](https://actions-creator.js.org)
 - [Actions Creator](https://actions-creator.js.org/docs/actions-creator)
